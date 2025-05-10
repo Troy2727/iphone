@@ -780,34 +780,9 @@ Public Assets used in the project can be found [here](https://drive.google.com/f
 
 ## <a name="links">🔗 Links</a>
 
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <a href="https://github.com/Troy2727/iphone" target="_blank">
-          <b>GitHub Repository</b>
-        </a>
-      </td>
-      <td>
-        <a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank">
-          <b>Video Tutorial</b>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://discord.gg/dUv2Mtxy" target="_blank">
-          <b>Discord Community</b>
-        </a>
-      </td>
-      <td>
-        <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank">
-          <b>YouTube Channel</b>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+| [GitHub Repository](https://github.com/Troy2727/iphone) | [Discord Community](https://discord.gg/dUv2Mtxy) |
+| --- | --- |
+| [JavaScript Maestro](https://javascriptmaestro.com) | [JSMaestro](https://jsmaestro.com) |
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -831,7 +806,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Beautiful Subtle Smooth Animations using GSAP**: Enhanced user experience with seamless and captivating animations powered by GSAP.
 
-👉 **3D Model Rendering with Different Colors and Sizes**: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.
+👉 **3D Model Rendering with Different Colors and Sizes**: Explore the iPhone 16 Pro from every angle with dynamic 3D rendering, offering various color and size options.
 
 👉 **Custom Video Carousel (made with GSAP)**: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.
 
