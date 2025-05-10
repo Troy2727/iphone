@@ -15,7 +15,7 @@
   <h3 align="center">iPhone 16 Website</h3>
 
   <div align="center">
-    Build this project step by step with our detailed tutorial on <a href="https://github.com/Troy2727/iphone.git" target="_blank"><b>JavaScript Maestro</b></a> YouTube. Join the JSMaestro family!
+    A clone of Apple's iPhone 16 Pro website built with React.js, Three.js, and GSAP animations.
   </div>
 </div>
 
@@ -772,17 +772,8 @@ canvas {
 
 ## <a name="links">🔗 Links</a>
 
-Public Assets used in the project can be found [here](https://drive.google.com/file/d/1syHiNxSIGXVApaIozdrLXM2x5dPhvaJL/view?usp=sharing)" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
-
-## 📋 <a name="table">Table of Contents</a>
-
-## <a name="links">🔗 Links</a>
-
 | [GitHub Repository](https://github.com/Troy2727/iphone) | [Discord Community](https://discord.gg/dUv2Mtxy) |
 | --- | --- |
-| [JavaScript Maestro](https://javascriptmaestro.com) | [JSMaestro](https://jsmaestro.com) |
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -2251,12 +2242,6 @@ canvas {
   }
 }
 ```
-
-</details>
-
-## <a name="links">🔗 Links</a>
-
-Public Assets used in the project can be found [here](https://drive.google.com/file/d/1syHiNxSIGXVApaIozdrLXM2x5dPhvaJL/view?usp=sharing)
 ---
 
 
