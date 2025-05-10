@@ -17,7 +17,7 @@ export const hightlightsSlides = [
     textLists: [
       "Enter A18 Pro.",
       "Game‑changing chip.",
-      "Groundbreaking performance.",
+      "Built for Apple Intelligence.",
     ],
     video: highlightFirstVideo,
     videoDuration: 4,
@@ -40,9 +40,15 @@ export const hightlightsSlides = [
   },
   {
     id: 4,
-    textLists: ["All-new Action button.", "What will yours do?."],
+    textLists: ["All-new Action button.", "What will yours do?"],
     video: highlightFourthVideo,
     videoDuration: 3.63,
+  },
+  {
+    id: 5,
+    textLists: ["Apple Intelligence.", "Personal. Private. Powerful."],
+    video: highlightFirstVideo,
+    videoDuration: 4,
   },
 ];
 

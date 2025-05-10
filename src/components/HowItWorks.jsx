@@ -36,12 +36,12 @@ const HowItWorks = () => {
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            <span className="text-blue">A18 Pro</span> chip.
+            <span className="gradient-text">A18 Pro</span> chip.
             <br /> A monster win for gaming.
           </h2>
 
           <p className="hiw-subtitle">
-            It&apos;s here. The biggest redesign in the history of Apple GPUs with <span className="text-white font-bold">unprecedented performance</span>.
+            It&apos;s here. The biggest redesign in the history of Apple GPUs with <span className="text-white font-bold">unprecedented performance</span> and built for <span className="gradient-text">Apple Intelligence</span>.
           </p>
         </div>
 
@@ -69,6 +69,9 @@ const HowItWorks = () => {
                     A18 Pro is an entirely new class of iPhone chip that delivers our {' '}
                     <span className="text-white font-bold">
                       best graphic performance by far
+                    </span> and powers {' '}
+                    <span className="gradient-text">
+                      Apple Intelligence
                     </span>.
                   </p>
 
@@ -77,7 +80,10 @@ const HowItWorks = () => {
                     <span className="text-white font-bold">
                       games will look and feel so immersive
                     </span>,
-                     with incredibly detailed environments and characters.
+                     with incredibly detailed environments and characters, while {' '}
+                    <span className="gradient-text">
+                      AI features run seamlessly
+                    </span> in the background.
                   </p>
                 </div>
 
@@ -86,6 +92,9 @@ const HowItWorks = () => {
                 <p className="hiw-text text-blue">New</p>
                 <p className="hiw-bigtext font-bold">Pro-class GPU</p>
                 <p className="hiw-text">with 6 cores</p>
+                <p className="hiw-text text-blue mt-6">Built for</p>
+                <p className="hiw-bigtext gradient-text">Apple Intelligence</p>
+                <p className="hiw-text">with advanced Neural Engine</p>
               </div>
               </div>
             </div>
