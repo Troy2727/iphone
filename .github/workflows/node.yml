@@ -32,30 +32,5 @@ jobs:
     - name: Lint (non-blocking)
       run: npm run lint || echo "Linting issues found, but continuing with the build"
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18.x'
-        cache: 'npm'
-    - run: npm ci
-    - name: Create .env file for Sentry
-      run: |
-        echo "VITE_SENTRY_DSN=https://d674932a77e6d9b9ced1190d70fd4691@o4506876178464768.ingest.us.sentry.io/4506876181151744" > .env
-    - name: Build project
-      run: |
-        export NODE_OPTIONS=--openssl-legacy-provider
-        npm run build
-    - name: Lint (non-blocking)
-      run: npm run lint || echo "Linting issues found, but continuing with the build"
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: dist
+  # Build job is sufficient for CI
+  # Deploy job removed as requested
