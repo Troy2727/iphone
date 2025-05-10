@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true },
+  env: { browser: true, es2020: true, node: true },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -17,5 +17,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'react/no-unknown-property': ['error', {
+      ignore: ['position', 'intensity', 'castShadow', 'receiveShadow', 'geometry', 'material',
+               'roughness', 'map', 'angle', 'penumbra', 'decay', 'dispose']
+    }],
+    'react/prop-types': 'off', // Disable prop-types validation
   },
 }
