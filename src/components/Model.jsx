@@ -46,7 +46,7 @@ const Model = () => {
         duration: 2
       })
     }
-  }, [size])
+  }, [size, tl, small, large, smallRotation, largeRotation])
 
   useGSAP(() => {
     gsap.to('#heading', { y: 0, opacity: 1 })
@@ -61,7 +61,7 @@ const Model = () => {
 
         <div className="flex flex-col items-center mt-5">
           <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
-            <ModelView 
+            <ModelView
               index={1}
               groupRef={small}
               gsapType="view1"
@@ -69,9 +69,9 @@ const Model = () => {
               setRotationState={setSmallRotation}
               item={model}
               size={size}
-            />  
+            />
 
-            <ModelView 
+            <ModelView
               index={2}
               groupRef={large}
               gsapType="view2"

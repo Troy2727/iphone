@@ -8,7 +8,8 @@ import Footer from './components/Footer';
 
 import * as Sentry from '@sentry/react';
 
-const App = () => {
+// Define the App component separately to avoid fast refresh warnings
+const AppComponent = () => {
   return (
     <main className="bg-black">
       <Navbar />
@@ -22,4 +23,6 @@ const App = () => {
   )
 }
 
-export default Sentry.withProfiler(App);
+// Use a named export for the Sentry-wrapped component
+const App = Sentry.withProfiler(AppComponent);
+export default App;
