@@ -14,8 +14,8 @@ const HowItWorks = () => {
         start: '20% bottom'
       },
       opacity: 0,
-      scale: 2,
-      duration: 2,
+      scale: 3,
+      duration: 3,
       ease: 'power2.inOut'
     })
 
@@ -31,17 +31,17 @@ const HowItWorks = () => {
     <section className="common-padding">
       <div className="screen-max-width">
         <div id="chip" className="flex-center w-full my-20">
-          <img src={chipImg} alt="chip" width={180} height={180} />
+          <img src={chipImg} alt="A18 Pro chip" width={500} height={500} className="object-contain" />
         </div>
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            A18 Pro chip.
+            <span className="text-blue">A18 Pro</span> chip.
             <br /> A monster win for gaming.
           </h2>
 
           <p className="hiw-subtitle">
-            It&apos;s here. The biggest redesign in the history of Apple GPUs.
+            It&apos;s here. The biggest redesign in the history of Apple GPUs with <span className="text-white font-bold">unprecedented performance</span>.
           </p>
         </div>
 
@@ -67,14 +67,14 @@ const HowItWorks = () => {
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn">
                     A18 Pro is an entirely new class of iPhone chip that delivers our {' '}
-                    <span className="text-white">
+                    <span className="text-white font-bold">
                       best graphic performance by far
                     </span>.
                   </p>
 
                   <p className="hiw-text g_fadeIn">
                    Mobile {' '}
-                    <span className="text-white">
+                    <span className="text-white font-bold">
                       games will look and feel so immersive
                     </span>,
                      with incredibly detailed environments and characters.
@@ -83,8 +83,8 @@ const HowItWorks = () => {
 
 
               <div className="flex-1 flex justify-center flex-col g_fadeIn">
-                <p className="hiw-text">New</p>
-                <p className="hiw-bigtext">Pro-class GPU</p>
+                <p className="hiw-text text-blue">New</p>
+                <p className="hiw-bigtext font-bold">Pro-class GPU</p>
                 <p className="hiw-text">with 6 cores</p>
               </div>
               </div>
