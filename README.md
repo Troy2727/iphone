@@ -772,8 +772,15 @@ canvas {
 
 ## <a name="links">🔗 Links</a>
 
-| [GitHub Repository](https://github.com/Troy2727/iphone) | [Discord Community](https://discord.gg/dUv2Mtxy) |
-| --- | --- |
+<div align="center">
+  <a href="https://github.com/Troy2727/iphone" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://discord.gg/dUv2Mtxy" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Community" />
+  </a>
+</div>
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -781,7 +788,7 @@ This is a clone of Apple's iPhone 16 Pro website using React.js and TailwindCSS.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<a href="https://discord.gg/dUv2Mtxy" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -820,8 +827,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/iphone-doc.git
-cd iphone-doc
+git clone https://github.com/Troy2727/iphone.git
+cd iphone
 ```
 
 **Installation**
