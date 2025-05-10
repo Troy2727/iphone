@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 20.x]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v3
@@ -22,14 +22,20 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run build --if-present
+    - name: Create .env file for Sentry
+      run: |
+        echo "VITE_SENTRY_DSN=https://d674932a77e6d9b9ced1190d70fd4691@o4506876178464768.ingest.us.sentry.io/4506876181151744" > .env
+    - name: Build project
+      run: |
+        export NODE_OPTIONS=--openssl-legacy-provider
+        npm run build
     - run: npm run lint
-    
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    
+
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js
@@ -38,8 +44,14 @@ jobs:
         node-version: '18.x'
         cache: 'npm'
     - run: npm ci
-    - run: npm run build
-    
+    - name: Create .env file for Sentry
+      run: |
+        echo "VITE_SENTRY_DSN=https://d674932a77e6d9b9ced1190d70fd4691@o4506876178464768.ingest.us.sentry.io/4506876181151744" > .env
+    - name: Build project
+      run: |
+        export NODE_OPTIONS=--openssl-legacy-provider
+        npm run build
+
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
