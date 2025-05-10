@@ -1,8 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank">
-      <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner">
-    </a>
+  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner">
+  <br />
   <br />
 
   <div>
@@ -11,39 +10,50 @@
     <img src="https://img.shields.io/badge/-GSAP-black?style=for-the-badge&logoColor=white&logo=greensock&color=88CE02" alt="greensock" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
+  <br />
 
-  <h3 align="center">Iphone 15 Website</h3>
+  <h2 align="center">iPhone 16 Website</h2>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <p align="center">
+    A stunning 3D website showcasing the iPhone 16 with interactive features and animations
+  </p>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
+<div align="center">
 
-## 🚨 Tutorial
+| 🤖 [Introduction](#introduction) | ⚙️ [Tech Stack](#tech-stack) | 🔋 [Features](#features) |
+| --- | --- | --- |
+| 🤸 [Quick Start](#quick-start) | 🕸️ [Snippets](#snippets) | 🔗 [Links](#links) |
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+</div>
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+## 🚨 Project Overview
 
-<a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+This repository contains the code for an iPhone 16 website clone built with React.js and Three.js.
+
+<div align="center">
+  <a href="https://github.com/Troy2727/iphone" target="_blank">
+    <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner" width="600px" />
+  </a>
+</div>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.
+This is a clone of Apple's iPhone 16 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 16 Pro models in various colors and shapes.
+
+<div align="center">
+  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="iPhone 16 Pro" width="600px" />
+</div>
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<div align="center">
+  <a href="https://discord.gg/dUv2Mtxy" target="_blank">
+    <img src="https://img.shields.io/discord/1234567890?color=5865F2&logo=discord&logoColor=white&label=Join%20Our%20Discord" alt="Discord" />
+  </a>
+</div>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -57,50 +67,104 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Beautiful Subtle Smooth Animations using GSAP**: Enhanced user experience with seamless and captivating animations powered by GSAP.
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        ✨ <b>Beautiful Animations with GSAP</b>
+      </td>
+      <td>
+        🎨 <b>Dynamic 3D Model Rendering</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Enhanced user experience with seamless animations powered by GSAP
+      </td>
+      <td>
+        Explore the iPhone 16 Pro from every angle with various color and size options
+      </td>
+    </tr>
+    <tr>
+      <td>
+        🎬 <b>Interactive Video Carousel</b>
+      </td>
+      <td>
+        📱 <b>Fully Responsive Design</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Unique video carousel developed with GSAP for a personalized experience
+      </td>
+      <td>
+        Optimal viewing on any device with a design that adapts to different screen sizes
+      </td>
+    </tr>
+  </table>
+</div>
 
-👉 **3D Model Rendering with Different Colors and Sizes**: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.
-
-👉 **Custom Video Carousel (made with GSAP)**: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.
-
-👉 **Completely Responsive**: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
-
-and many more, including code architecture and reusability 
+And many more features, including clean code architecture and component reusability!
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+<div align="center">
+  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Quick Start" width="400px" />
+</div>
 
-**Prerequisites**
+Follow these steps to set up the project locally on your machine:
 
-Make sure you have the following installed on your machine:
+### Prerequisites
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+<table>
+  <tr>
+    <td>
+      <a href="https://git-scm.com/" target="_blank">
+        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="40" alt="Git" />
+      </a>
+    </td>
+    <td>
+      <a href="https://nodejs.org/en" target="_blank">
+        <img src="https://nodejs.org/static/images/logo.svg" width="40" alt="Node.js" />
+      </a>
+    </td>
+    <td>
+      <a href="https://www.npmjs.com/" target="_blank">
+        <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.svg" width="40" alt="npm" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Git</td>
+    <td align="center">Node.js</td>
+    <td align="center">npm</td>
+  </tr>
+</table>
 
-**Cloning the Repository**
+### Installation
+
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/iphone-doc.git
-cd iphone-doc
+git clone https://github.com/Troy2727/iphone.git
+cd iphone
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
 
-**Running the Project**
+3. **Start the development server**
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+4. **View the project**
+
+Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ## <a name="snippets">🕸️ Snippets</a>
 
@@ -770,27 +834,35 @@ canvas {
 
 ## <a name="links">🔗 Links</a>
 
-Public Assets used in the project can be found [here](https://drive.google.com/file/d/1syHiNxSIGXVApaIozdrLXM2x5dPhvaJL/view?usp=sharing)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://drive.google.com/file/d/1syHiNxSIGXVApaIozdrLXM2x5dPhvaJL/view?usp=sharing" target="_blank">
+          <img src="https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png" width="40" alt="Google Drive" />
+          <br />
+          Project Assets
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Troy2727/iphone" target="_blank">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" alt="GitHub" />
+          <br />
+          GitHub Repository
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://threejs.org/" target="_blank">
+          <img src="https://threejs.org/files/favicon.ico" width="40" alt="Three.js" />
+          <br />
+          Three.js
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## <a name="more">🚀 More</a>
+---
 
-**Advance your skills with Next.js 14 Pro Course**
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
