@@ -22,10 +22,6 @@
 ## 📋 <a name="table">Table of Contents</a>
 
 <div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Table of Contents" width="400px" />
-</div>
-
-<div align="center">
 
 | 🤖 [Introduction](#introduction) | ⚙️ [Tech Stack](#tech-stack) | 🔋 [Features](#features) |
 | --- | --- | --- |
@@ -35,19 +31,21 @@
 
 ## 🚨 Project Overview
 
-<div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Overview" width="600px" />
-</div>
-
 This repository contains the code for an iPhone 16 website clone built with React.js and Three.js.
 
+<div align="center">
+  <a href="https://github.com/Troy2727/iphone" target="_blank">
+    <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner" width="600px" />
+  </a>
+</div>
+
 ## <a name="introduction">🤖 Introduction</a>
+
+This is a clone of Apple's iPhone 16 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 16 Pro models in various colors and shapes.
 
 <div align="center">
   <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="iPhone 16 Pro" width="600px" />
 </div>
-
-This is a clone of Apple's iPhone 16 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 16 Pro models in various colors and shapes.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
 
@@ -59,10 +57,6 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-<div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Tech Stack" width="600px" />
-</div>
-
 - React.js
 - Three.js
 - React Three Fiber
@@ -72,10 +66,6 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
-
-<div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Features" width="600px" />
-</div>
 
 <div align="center">
   <table>
@@ -117,10 +107,6 @@ If you're getting started and need assistance or face any bugs, join our active 
 And many more features, including clean code architecture and component reusability!
 
 ## <a name="quick-start">🤸 Quick Start</a>
-
-<div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Quick Start" width="400px" />
-</div>
 
 Follow these steps to set up the project locally on your machine:
 
@@ -177,10 +163,6 @@ npm run dev
 Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ## <a name="snippets">🕸️ Snippets</a>
-
-<div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Code Snippets" width="600px" />
-</div>
 
 <details>
 <summary><code>tailwind.config.js</code></summary>
@@ -847,10 +829,6 @@ canvas {
 </details>
 
 ## <a name="links">🔗 Links</a>
-
-<div align="center">
-  <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Links" width="600px" />
-</div>
 
 <div align="center">
   <table>
