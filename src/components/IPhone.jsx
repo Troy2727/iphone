@@ -7,7 +7,7 @@ Title: Apple iPhone 15 Pro Max Black
 */
 
 import * as THREE from 'three';
-import React, { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 
 function Model(props) {
@@ -30,7 +30,7 @@ function Model(props) {
         material[1].needsUpdate = true;
       });
     }, [materials, props.item]);
-  
+
   return (
     <group {...props} dispose={null}>
       <mesh

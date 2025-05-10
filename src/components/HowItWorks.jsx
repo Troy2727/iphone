@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { chipImg, frameImg, frameVideo } from '../utils'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
@@ -41,14 +41,14 @@ const HowItWorks = () => {
           </h2>
 
           <p className="hiw-subtitle">
-            It's here. The biggest redesign in the history of Apple GPUs.
+            It&apos;s here. The biggest redesign in the history of Apple GPUs.
           </p>
         </div>
 
         <div className="mt-10 md:mt-20 mb-14">
           <div className="relative h-full flex-center">
             <div className="overflow-hidden">
-              <img 
+              <img
                 src={frameImg}
                 alt="frame"
                 className="bg-transparent relative z-10"
@@ -80,7 +80,7 @@ const HowItWorks = () => {
                      with incredibly detailed environments and characters.
                   </p>
                 </div>
-              
+
 
               <div className="flex-1 flex justify-center flex-col g_fadeIn">
                 <p className="hiw-text">New</p>
